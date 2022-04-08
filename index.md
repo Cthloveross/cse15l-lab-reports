@@ -1,5 +1,4 @@
 
-CThloveross
 
 # I like summer
 
@@ -13,9 +12,9 @@ CThloveross
 
 > Blockquote
 
-* List
-* List
-* List
+* apple
+* banana
+* peach
 
 1. One
 2. Two
@@ -29,7 +28,6 @@ Horizontal rule:
 
 ```
 # code block
-print '3 backticks or'
-print 'indent 4 spaces'
+print 'CThloveross'
 ```
 
