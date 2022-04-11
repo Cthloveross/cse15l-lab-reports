@@ -22,4 +22,5 @@ You may find that whenever we want to use scp, we have to type our password. To 
 ![image](keys.png)
 
 ## Optimizing Remote Running
-There are mutiple ways for you to concise how you run the code. First, you may use quotes at the end of an ssh command so that you can directly run it on the remote computer. This is what the code looks like: $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls" Second, you may use semicolons to run multiple commands at the same line. Third, you can use the up-arrow on the keyboard to recall the last command you have run before. By using these skills, you are able to optimize your remote running.
+There are mutiple ways for you to concise how you run the code. First, you may use quotes at the end of an ssh command so that you can directly run it on the remote computer. This is what the code looks like: $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls" Second, you may use semicolons to run multiple commands at the same line. Third, you can use the up-arrow on the keyboard to recall the last command you have run before. By using these skills, you are able to optimize your remote running. Here is the screenshot of using semicolons.
+![iamge](opt.png)
