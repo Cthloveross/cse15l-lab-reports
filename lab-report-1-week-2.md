@@ -13,7 +13,10 @@ You should replace zz with your own number. Then it will ask you to type your pa
 
 ## Try some commands
 After connecting to the remote computer, you are able to try some commands in the terminal. For example, ls will list the files you have. Command pwd will display the pathname of the working directory. Other commands like mkdir, lat, cd are all useful commands waiting for you to explore.
-Here is the screen shot of trying -lat, which is the combination of -l -a -t commands.
+Here is the screen shot of trying -lat, which is the combination of -l -a -t commands. Here are some commands you can try:
+```
+-l -a -ls -lat mkdir
+```
 ![image](commands.png)
 
 ## Moving Files with scp
@@ -25,7 +28,10 @@ Next, you will be asked to type your password. Here is the screen shot when you 
 ![image](scp.png)
 
 ## Setting an SSH Key
-You may find that whenever we want to use scp, we have to type our password. To solve this problem, we have a great solution called ssh keys which used a program named ssh-keygen. It will create two keys. One is public key on the servery and another one is private key on your own client. First, after typing ssh-keygen, it will show the directory of two keys. When it shows "enter passphrase", do not type anything. When it shows the password, type in the directory of your public key file. Then you finished the key set. When you want to log in next time, you do not need to type the password anymore. Here is the screen shot when you success.
+You may find that whenever we want to use scp, we have to type our password. To solve this problem, we have a great solution called ssh keys which used a program named ssh-keygen. It will create two keys. One is public key on the servery and another one is private key on your own client. First, after typing ssh-keygen, it will show the directory of two keys. When it shows "enter passphrase", do not type anything. When it shows the password, type in the directory of your public key file. Then you finished the key set. When you want to log in next time, you do not need to type the password anymore. Here is the screen shot when you success. Here is the code you should type:
+```
+ssh-keygen
+```
 ![image](keys.png)
 
 ## Optimizing Remote Running
